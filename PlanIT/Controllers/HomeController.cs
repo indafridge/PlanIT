@@ -15,14 +15,14 @@ namespace PlanIT.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description pagesss.";
+            ViewBag.Message = "Your application description page :|| good one retard.";
 
             return View();
         }
-
+         
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact pagesssssss.";
 
             return View();
         }
