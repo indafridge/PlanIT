@@ -30,6 +30,9 @@ summary {
 audio,
 canvas,
 progress,
+#bigBody {
+    background-color: #5680e9
+}
 video {
   display: inline-block;
   vertical-align: baseline;
@@ -4665,8 +4668,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
-  border-color: #080808;
+    background-color: #5ab9ea;
+    border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -5032,11 +5035,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #84ceeb;
 }
 .jumbotron h1,
 .jumbotron .h1 {
