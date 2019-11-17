@@ -81,9 +81,7 @@ summary {
 }
 audio,
 progress,
-#bigBody {
-    background-color: #5680e9
-}
+
 video {
   display: inline-block;
   vertical-align: baseline;
@@ -4719,8 +4717,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-    background-color: #5ab9ea;
-    border-color: #080808;
+    background-color: transparent;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
