@@ -4,10 +4,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
 body {
     margin: 0;
@@ -15,6 +18,23 @@ body {
     font: normal 75% Arial, Helvetica, sans-serif;
     background-image: url("/Images/background_pic.jpeg");
     background-size: cover;
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(25,25,25);
+}
+.line-1 {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
 }
 canvas {
     margin: 0;
@@ -63,6 +83,31 @@ canvas {
 .count-particles {
     border-radius: 0 0 3px 3px;
 }
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255,255,255,.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
 /*                                             */
 article,
 aside,
