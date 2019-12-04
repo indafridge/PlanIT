@@ -12,6 +12,8 @@ html {
     -webkit-text-size-adjust: 100%;
     min-height: 100%;
     overflow: hidden;
+    scroll-behaviour: smooth;
+    background-image: url(../Images/crimble.jpg);
 }
 body {
     background: white;
