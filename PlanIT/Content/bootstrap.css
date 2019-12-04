@@ -13,14 +13,12 @@ html {
     min-height: 100%;
     overflow: hidden;
     scroll-behaviour: smooth;
-    background-image: url(../Images/crimble.jpg);
 }
 body {
-    background: white;
+    background-image: url(../Images/crimble.jpg);
     margin: 0;
     padding: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
-    background-size: cover;
     height: calc(100vh - 8em);
     padding: 4em;
     color: rgba(255,255,255,.75);
@@ -85,15 +83,6 @@ canvas {
 }
 .count-particles {
     border-radius: 0 0 3px 3px;
-}
-.parallax {
-    /* The image used */
-    background: url('/Images/background_pic.jpeg') no-repeat center;
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-size: cover;
 }
 /* Animation */
 .anim-typewriter {
@@ -1688,7 +1677,6 @@ pre code {
 .container {
   float: left;
   max-width: 960px;
-  background: #f9f9f9;
   margin: 0 auto;
   font-size: 24px;
   padding: 25px;
