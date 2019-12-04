@@ -1684,6 +1684,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  float: left;
   max-width: 960px;
   background: #f9f9f9;
   margin: 0 auto;

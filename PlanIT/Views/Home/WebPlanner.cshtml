@@ -6,12 +6,32 @@
 
 </head>
 <body>
-    <a>
-        client ID
-        1075824191731-r45ekiirce7vfv994om4115mrqfq0jrl.apps.googleusercontent.com
-    </a>
-    <a>
-        Client Secret
-        -ugKsK_0AorX_WPWxV67gjr-
-    </a>
+    <script>
+            public static string Run(string fileName, string args)
+            {
+                string returnvalue = string.Empty;
+
+                ProcessStartInfo info = new ProcessStartInfo(Program.cs);
+                info.UseShellExecute = false;
+                info.Arguments = args;
+                info.RedirectStandardInput = true;
+                info.RedirectStandardOutput = true;
+                info.CreateNoWindow = true;
+
+                using(Process process = Process.Start(info))
+                {
+                    StreamReader sr = process.StandardOutput;
+                    returnvalue = sr.ReadToEnd();
+                }
+
+                return returnvalue;
+            }
+    </script>
+        <!----client ID
+        1075824191731-r45ekiirce7vfv994om4115mrqfq0jrl.apps.googleusercontent.com</>
+        <a>
+            Client Secret
+            -ugKsK_0AorX_WPWxV67gjr-
+        </a>
+            --->
 </body>
