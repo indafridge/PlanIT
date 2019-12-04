@@ -10,19 +10,23 @@
     <script type="text/javascript" src="/Scripts/particles.js"></script>
     <script type="text/javascript" src="/Scripts/app.js"></script>
     <div class="container">
-        <table border="0" align="center">
-            <tr>
-                <td>
-                    <form name="login" action="" method="post" accept-charset="utf-8">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="yourname@email.com" required value="@Request.Form[" email"]">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" placeholder="Password" required>
-                        <input type="submit" value="Login">
-                    </form>
-                </td>
-            </tr>
-        </table>
+        <div class="row">
+            <div class="col-lg-1">
+                <table border="0" align="center">
+                    <tr>
+                        <td>
+                            <form name="login" action="" method="post" accept-charset="utf-8">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="Email" required value="@Request.Form[" email"]">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" placeholder="Password" required>
+                                <input type="submit" value="Login">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 </body>
 </html>
