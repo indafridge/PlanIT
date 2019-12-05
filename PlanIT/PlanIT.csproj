@@ -160,6 +160,7 @@
   <ItemGroup>
     <Content Include="Images\background_pic.jpeg" />
     <Content Include="Images\crimble.jpg" />
+    <Content Include="Images\crimble1.jpg" />
     <Content Include="Scripts\app.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -186,6 +187,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <None Include="Views\Home\Login.cshtml" />
     <Content Include="Scripts\particles.js" />
+    <Content Include="Scripts\smoothScroll.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

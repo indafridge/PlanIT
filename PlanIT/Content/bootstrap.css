@@ -15,7 +15,6 @@ html {
     scroll-behaviour: smooth;
 }
 body {
-    background-image: url(../Images/crimble.jpg);
     margin: 0;
     padding: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
@@ -24,6 +23,18 @@ body {
     color: rgba(255,255,255,.75);
     font-family: 'Anonymous Pro', monospace;
     background-color: rgb(25,25,25);
+}
+section1{
+    height: 960px;
+    background-image: url(../Images/crimble1.jpg);
+}
+section2{
+    height:960px;
+    background-image: url(../Images/crimble.jpg);
+}
+section3{
+    height: 960px;
+    background-color: white;
 }
 .line-1 {
     position: relative;
