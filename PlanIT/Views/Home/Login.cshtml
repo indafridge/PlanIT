@@ -6,9 +6,8 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    <div id="particles-js"></div>
     <script type="text/javascript" src="/Scripts/particles.js"></script>
-    <script type="text/javascript" src="/Scripts/app.js"></script>
+    <script type="text/javascript" src="/Scripts/app.js"></script>    
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -20,7 +19,7 @@
                                 <input type="email" name="email" placeholder="Email" required value="@Request.Form[" email"]">
                                 <label for="password">Password</label>
                                 <input type="password" name="password" placeholder="Password" required>
-                                <input type="submit" value="Login">
+                                <button id="buttonLogin" onclick="loginScript()">Login</button>
                             </form>
                         </td>
                     </tr>
