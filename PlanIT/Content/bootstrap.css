@@ -6,52 +6,80 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /*Google*/
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    scroll-behaviour: smooth;
 }
 body {
-    margin: 0;
-    padding: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
-    height: calc(100vh - 8em);
-    padding: 4em;
     color: rgba(255,255,255,.75);
     font-family: 'Anonymous Pro', monospace;
     background-color: rgb(25,25,25);
 }
-section1{
-    height: 960px;
+.hax {
+    z-index: 1000000000000000000000;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+.glyphicon{
+    font-size: 100px;
+    color: black;
+}
+.slide {
+    padding: 0;
+    margin: 0;
+    background: no-repeat;
+    box-sizing: border-box;
+}
+.slide p{
+    margin: 0;
+}
+.slide--bg-img1 {
     background-image: url(../Images/crimble1.jpg);
+    height: 69%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
-section2{
-    height:960px;
+.slide--bg-img2 {
+    margin: 0;
+    padding: 0;
+    height: 69%;
     background-image: url(../Images/crimble.jpg);
-}
-section3{
-    height: 960px;
-    background-color: white;
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 .line-1 {
     position: relative;
-    top: 50%;
+    top: 20%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 600%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);
+    left: 37.5%;
 }
 canvas {
     margin: 0;
     display: block;
     vertical-align: bottom;
+}
+.wrapper {
+    height: 1900px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 /* ---- particles.js container ---- */
 #particles-js {
@@ -85,8 +113,8 @@ canvas {
 #stats,
 .count-particles {
     -webkit-user-select: none;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 #stats {
     border-radius: 3px 3px 0 0;
@@ -97,14 +125,14 @@ canvas {
 }
 /* Animation */
 .anim-typewriter {
-    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 1.75s steps(50) 1s 1 normal both, blinkTextCursor 500ms steps(50) infinite normal;
 }
 @keyframes typewriter {
     from {
-        width: 0;
+        width: 0ch;
     }
     to {
-        width: 24em;
+        width: 15ch;
     }
 }
 @keyframes blinkTextCursor {
@@ -1687,10 +1715,8 @@ pre code {
 }
 .container {
   float: left;
-  max-width: 960px;
   margin: 0 auto;
   font-size: 24px;
-  padding: 25px;
 }
 @media (min-width: 768px) {
   .container {
