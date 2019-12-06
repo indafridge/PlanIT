@@ -168,6 +168,7 @@
     <Content Include="Images\background_pic.jpeg" />
     <Content Include="Images\crimble.jpg" />
     <Content Include="Images\crimble1.jpg" />
+    <Content Include="Php\scripting.php" />
     <Content Include="Scripts\app.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -214,7 +215,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Php\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

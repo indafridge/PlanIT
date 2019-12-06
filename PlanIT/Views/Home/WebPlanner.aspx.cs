@@ -29,5 +29,9 @@ namespace PlanIT.Views.Home
 
         }
 
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
