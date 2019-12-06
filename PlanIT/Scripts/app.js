@@ -83,3 +83,6 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+function loginScript(){
+    var scr = serverScript.php;
+}
