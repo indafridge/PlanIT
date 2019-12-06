@@ -156,10 +156,18 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Home\WebPlanner.aspx.cs">
+      <DependentUpon>WebPlanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\WebPlanner.aspx.designer.cs">
+      <DependentUpon>WebPlanner.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\background_pic.jpeg" />
     <Content Include="Images\crimble.jpg" />
+    <Content Include="Images\crimble1.jpg" />
     <Content Include="Scripts\app.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -186,6 +194,8 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <None Include="Views\Home\Login.cshtml" />
     <Content Include="Scripts\particles.js" />
+    <Content Include="Scripts\smoothScroll.js" />
+    <Content Include="Views\Home\WebPlanner.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -200,7 +210,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\WebPlanner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
