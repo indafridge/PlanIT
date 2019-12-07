@@ -25,10 +25,20 @@ body {
 .hax {
     z-index: 1000000000000000000000;
     position: absolute;
-    left: 50%;
+    left: 48.5%;
     top: 90%;
 }
+.hax1 {
+    z-index: 1000000000000000000000;
+    position: absolute;
+    left: 48.5%;
+    top: 195%;
+}
 .glyphicon{
+    font-size: 100px;
+    color: black;
+}
+.glyphicon1{
     font-size: 100px;
     color: black;
 }
@@ -42,12 +52,12 @@ body {
     margin: 0;
 }
 .slide--bg-img1 {
-    background-image: url(../Images/crimble1.jpg);
-    height: 69%;
-    background-size: cover;
-    background-position: center;
     margin: 0;
     padding: 0;
+    height: 69%;
+    background-image: url(../Images/crimble1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .slide--bg-img2 {
     margin: 0;
@@ -56,8 +66,58 @@ body {
     background-image: url(../Images/crimble.jpg);
     background-size: cover;
     background-position: center;
-    color: white;
 }
+.slide--bg-img3 {
+    margin: 0;
+    padding: 0;
+    height: 69%;
+    background-image: url(../Images/crimble2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about {
+    font-size: 100%;
+    color: black;
+}
+.middle {
+
+}
+.about h1 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+.filler {
+    position: absolute;
+    width: 100px;
+    height: 360px;
+    margin: auto;
+}
+.filler1{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+}
+.filler2{
+    position: absolute;
+    height: 400px;
+    width: 100px;
+    margin: auto;
+}
+.filler3 {
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    margin: auto;
+}
+
+
+
+
+
+
+
 .line-1 {
     position: relative;
     top: 20%;
@@ -197,8 +257,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 mark {
   background: #ff0;
@@ -1196,6 +1254,9 @@ th {
 .glyphicon-menu-down:before {
   content: "\e259";
 }
+.glyphicon-menu-down1:before {
+    content: "\e259";
+}
 .glyphicon-menu-up:before {
   content: "\e260";
 }
@@ -1355,8 +1416,6 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -1378,8 +1437,6 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 h4 small,
 .h4 small,
@@ -1576,6 +1633,7 @@ dl {
 }
 dt,
 dd {
+
   line-height: 1.42857143;
 }
 dt {
