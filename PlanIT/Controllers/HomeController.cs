@@ -42,19 +42,10 @@ namespace PlanIT.Controllers
         public ActionResult Login()
         {
             ViewBag.Message = "Your login page.";
-            /* textbox first name ENTER
-             void textBoxFirstname_Enter(object sender, EventArgs e)
-            {
-                String fname = textBoxFirstname.Text;
-                if (fname.ToLower().Trim().Equals("first name"))
-                {
-                    textBoxFirstname.Text = "";
-                    textBoxFirstname.ForeColor = Color.Black;
-                }
-            }
+
             return View();
         }
-        */
+        
 
         public ActionResult Register()
         {

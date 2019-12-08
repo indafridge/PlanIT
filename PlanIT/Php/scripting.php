@@ -1,5 +1,5 @@
 <?php
-/*
+
 $servername = "planitserver.database.windows.net";
 $username = "planit";
 $password = "Password123";
@@ -18,14 +18,14 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. $row["email"]. $row["password"]. br>";
+        echo "id: " . $row["id"]. $row["email"]. $row["password"]. br>;
     }
 } else {
     echo '0 results';
 }
 $conn->close();
 
- */
+ 
 /*
 $connection = mysql_connect("localhost", "root", ""); // Establishing connection with server..
 $db = mysql_select_db("college", $connection); // Selecting Database.
@@ -48,6 +48,7 @@ echo "Email or Password is wrong...!!!!";
 mysql_close ($connection); // Connection Closed.
 */
 
+/*
     $serverName = "planitserver.database.windows.net";
     $connectionOptions = array(
         "Database" => "PlanITdb",
@@ -69,5 +70,5 @@ mysql_close ($connection); // Connection Closed.
     }
     sqlsrv_free_stmt($getResults);
 
-
+*/
 ?>

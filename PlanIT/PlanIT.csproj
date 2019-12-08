@@ -197,6 +197,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\particles.js" />
     <Content Include="Scripts\smoothScroll.js" />
+    <Content Include="Views\Home\Login.html" />
     <Content Include="Views\Home\WebPlanner.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -212,7 +213,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
