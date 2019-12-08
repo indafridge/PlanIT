@@ -31,7 +31,7 @@
             <asp:TextBox ID="TextBox4" runat="server" style="margin-left: 24px; background-color: #CCFFFF; height: 22px;" Width="170px"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="margin-left: 51px" Text="Add Task" Width="122px" />
+            <asp:Button ID="submitButton" runat="server" OnClick="Button1_Click" style="margin-left: 51px" Text="Add Task" Width="122px" />
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
