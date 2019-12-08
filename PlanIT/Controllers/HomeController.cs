@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ComponentModel;
+using System.Data;
+using System.Text;
+using System.Drawing;
 using System.Web;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace PlanIT.Controllers
@@ -32,12 +37,33 @@ namespace PlanIT.Controllers
 
             return View();
         }
-
+        
+        
         public ActionResult Login()
         {
             ViewBag.Message = "Your login page.";
+            /* textbox first name ENTER
+             void textBoxFirstname_Enter(object sender, EventArgs e)
+            {
+                String fname = textBoxFirstname.Text;
+                if (fname.ToLower().Trim().Equals("first name"))
+                {
+                    textBoxFirstname.Text = "";
+                    textBoxFirstname.ForeColor = Color.Black;
+                }
+            }
+            return View();
+        }
+        */
+
+        public ActionResult Register()
+        {
+            ViewBag.Message = "Your Register page.";
 
             return View();
         }
+
+
+
     }
 }
