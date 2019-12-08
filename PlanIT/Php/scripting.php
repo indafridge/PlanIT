@@ -1,5 +1,5 @@
 <?php
-
+/*
 $servername = "planitserver.database.windows.net";
 $username = "planit";
 $password = "Password123";
