@@ -32,7 +32,7 @@ body {
     z-index: 1000000000000000000000;
     position: absolute;
     left: 48.5%;
-    top: 195%;
+    top: 192%;
 }
 .glyphicon{
     font-size: 100px;
@@ -111,7 +111,9 @@ body {
     width: 400px;
     margin: auto;
 }
-
+#left{
+    float:left;
+}
 
 
 
@@ -1633,7 +1635,6 @@ dl {
 }
 dt,
 dd {
-
   line-height: 1.42857143;
 }
 dt {
