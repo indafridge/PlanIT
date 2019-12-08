@@ -82,6 +82,9 @@ body {
 .middle {
 
 }
+.col-lg-12 #login {
+    z-index: 9999999;
+}
 .about h1 {
     margin: 0;
     padding: 0;
